@@ -1,0 +1,136 @@
+body{
+    background: url(../Res/kids9.jfif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-position: center;
+    height: 100%; 
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    height: 65px;
+    overflow: hidden;
+    background-color: #CAE9F5;
+}
+
+.container h1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10%;
+    color: green;
+}
+
+.container ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 60%;
+}
+
+.container li{
+    /* margin-top: 10%; */
+    padding-left: 20px;
+    float: left;
+    /* padding: 0 20px 0 20px; */
+}
+
+.container a{
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}
+
+.container a:hover{
+    color: #844421;
+}
+
+#main{
+    font-size: 250px;
+    color: green;
+    padding-left: 25%;
+    font-family: fantasy;
+    overflow: hidden;
+}
+
+#main2{
+    font-size: 250px;
+    color: green ;
+    font-family:fantasy;
+    overflow: hidden;
+}
+
+#main0{
+    margin-top: 4%;
+}
+
+#op{
+    position: sticky;
+    font-weight: bolder;
+    font-size: 260px;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 2%;
+    color: burlywood;
+    
+}
+
+#op1{
+    display: inline-block;
+    padding-left: 10%;
+    background-color: darkolivegreen;
+    width: 15%;
+    height: 240px;
+    text-align: left ;
+    cursor: pointer;
+}
+
+#op1:hover{
+    background-color: green;
+}
+
+#op2{
+    display: inline-block;
+    padding-left: 10%;
+    background-color: darkolivegreen;
+    width: 15%;
+    height: 240px;
+    text-align: left;
+    cursor: pointer;
+}
+#op2:hover{
+    background-color: green;
+}
+
+#op3{
+    display: inline-block;
+    padding-left: 10%;
+    background-color: darkolivegreen;
+    width: 15%;
+    height: 240px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#op3:hover{
+    background-color: green;
+}
+
+/* #space{
+    font-size: 250px;
+    font-weight: bolder;
+    color: green ;
+     padding-right: 150px; 
+    padding-left: 20px;
+} */
+
+#result{
+    font-size: 50px;
+    color: greenyellow;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
